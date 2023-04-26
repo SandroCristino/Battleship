@@ -1,0 +1,33 @@
+
+
+.cell {
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+    background-color: grey;
+}
+
+.cell:hover {
+    background-color: lightgray;
+} 
+
+.cell:active {
+    background-color: lightgoldenrodyellow;
+}
+
+.shipMarked {
+    background-color: black;
+}
+
+.shipPlaced {
+    background-color: lightskyblue;
+}
+
+.shipHit {
+    background-color: lightcoral !important;
+}
+
+.miss {
+    background-color: black !important;
+}
+
