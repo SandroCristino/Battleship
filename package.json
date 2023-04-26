@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack", 
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development",
+    "deploy": "npm run build && gh-pages -d dist",
     "watch": "webpack --watch",
     "jest": "jest",
     "watchJest": "jest --watch *.js"
@@ -17,6 +19,7 @@
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
     "identity-obj-proxy": "^3.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
