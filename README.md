@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[ToDo List:] https://sandywezzy.github.io/Battleship/
+[ToDo List:] https://sandrocristino.github.io/Battleship/
 
 
 ## Getting Started
